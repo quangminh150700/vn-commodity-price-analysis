@@ -1,5 +1,8 @@
 # 📈 Vietnam Commodity Price Analysis
 
+[![Live dashboard](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://vn-commodity-prices.streamlit.app)
+**▶ Live dashboard: <https://vn-commodity-prices.streamlit.app>**
+
 > How world prices of Viet Nam's key exports (rice, Robusta coffee, rubber) and imported inputs
 > (oil, fertilizer) behaved from 2004 to **October 2026**, and what that means for farmers,
 > exporters and planners.
@@ -49,7 +52,10 @@ seasonality, lagged correlation) · data visualization · interactive dashboard 
 
 ## Interactive dashboard
 
+**Try it online: <https://vn-commodity-prices.streamlit.app>** (no install needed).
+
 Filter commodities and periods. Four tabs: trends, risk & return, seasonality, rice deep-dive.
+To run it locally:
 
 ```bash
 streamlit run app.py
