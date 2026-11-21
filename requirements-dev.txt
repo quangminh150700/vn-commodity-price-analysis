@@ -1,0 +1,7 @@
+# Everything needed to rebuild the data and the notebook
+-r requirements.txt
+openpyxl>=3.1
+nbformat>=5.9
+nbconvert>=7.16
+ipykernel>=6.29
+ruff>=0.6

@@ -78,7 +78,7 @@ streamlit run app.py
 ```bash
 python -m venv .venv
 .venv\Scripts\activate          # macOS/Linux: source .venv/bin/activate
-pip install -r requirements.txt
+pip install -r requirements-dev.txt   # dashboard only: requirements.txt
 
 python src/download.py          # optional: refresh to the latest month
 python src/clean.py
